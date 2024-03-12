@@ -155,6 +155,7 @@ const nextMonth = () => {
 .month {
   padding: 0 20px;
   transition: height .2s;
+  white-space: normal;
 }
 
 .month__weekday,
