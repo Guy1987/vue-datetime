@@ -1,5 +1,5 @@
 {
-  "name": "vue-datetime3-demo",
+  "name": "vue-datetime3",
   "workspaces": [
     "packages/*"
   ],
@@ -9,7 +9,8 @@
     "build": "cp README.md packages/lib && npm run build -ws --if-present",
     "test": "npm run test -ws --if-present",
     "tsc": "vue-tsc --noEmit -p tsconfig.tsc.json",
-    "version": "npm run version -ws --if-present"
+    "version": "npm run version -ws --if-present",
+    "prepare": "npm run build"
   },
   "devDependencies": {
     "@babel/types": "^7.21.4",
