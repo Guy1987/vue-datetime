@@ -12,6 +12,9 @@
     "version": "npm run version -ws --if-present",
     "prepare": "npm run build"
   },
+  "main": "dist/index.js",
+  "module": "dist/package-name.esm.js",
+  "types": "dist/types/types.d.ts",
   "devDependencies": {
     "@babel/types": "^7.21.4",
     "concurrently": "^8.0.1",
