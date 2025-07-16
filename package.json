@@ -13,6 +13,13 @@
     "prepare": "npm run build",
     "copy": "copyfiles -a -V -u 2 ./packages/lib/dist/* ./"
   },
+  "main": "dist/vue-datetime.umd.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/vue-datetime.mjs",
+  "style": "dist/style.css",
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "@babel/types": "^7.21.4",
     "concurrently": "^8.0.1",
