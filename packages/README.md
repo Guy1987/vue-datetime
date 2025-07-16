@@ -179,6 +179,3 @@ npm run build
 ## License
 
 [The MIT License](http://opensource.org/licenses/MIT)
-
-## Guy's notes
-Remember to run the build command (that will create the dist and copy it in the root)
